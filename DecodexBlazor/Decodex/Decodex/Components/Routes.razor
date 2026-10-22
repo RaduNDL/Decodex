@@ -1,0 +1,26 @@
+﻿
+<Router AppAssembly="typeof(Program).Assembly">
+    <Found Context="routeData">
+        <AuthorizeRouteView RouteData="routeData"
+                            DefaultLayout="typeof(MainLayout)">
+            <NotAuthorized>
+                <LayoutView Layout="typeof(MainLayout)">
+                    <section class="access-denied">
+                        <div class="access-icon">🔒</div>
+                        <h1>Acces restricționat</h1>
+                        <p>
+                            Trebuie să fii autentificat
+                            pentru a accesa această pagină.
+                        </p>
+                        <a class="btn btn-primary" href="/login">
+                            Autentificare
+                        </a>
+                    </section>
+                </LayoutView>
+            </NotAuthorized>
+        </AuthorizeRouteView>
+
+        <FocusOnNavigate RouteData="routeData"
+                         Selector="h1" />
+    </Found>
+</Router>

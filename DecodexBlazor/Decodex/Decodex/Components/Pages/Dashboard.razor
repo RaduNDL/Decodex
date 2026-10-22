@@ -1,0 +1,164 @@
+﻿
+@page "/dashboard"
+@attribute [Authorize]
+
+<PageTitle>Workspace — Decodex</PageTitle>
+
+<AuthorizeView>
+    <Authorized Context="authState">
+
+        <section class="dashboard-section">
+            <div class="container">
+
+                <div class="dashboard-header">
+                    <div>
+                        <span class="section-kicker">
+                            YOUR PERSONAL WORKSPACE
+                        </span>
+
+                        <h1>
+                            Welcome back,
+                            <span class="gradient-text">
+                                @authState.User.Identity?.Name
+                            </span>
+                        </h1>
+
+                        <p>
+                            Acesta este spațiul tău
+                            de cercetare în Decodex.
+                        </p>
+                    </div>
+
+                    <div class="workspace-status">
+                        <span class="status-dot"></span>
+                        WORKSPACE ACTIVE
+                    </div>
+                </div>
+
+                <div class="dashboard-stats">
+
+                    <div class="stat-card">
+                        <span class="stat-icon">▤</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Documente</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-icon">✦</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Analize AI</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-icon">∑</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Ecuații analizate</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-icon">◇</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-label">Conexiuni</span>
+                    </div>
+
+                </div>
+
+                <div class="dashboard-grid">
+
+                    <div class="workspace-card">
+                        <div class="workspace-card-header">
+                            <div>
+                                <span class="mini-label">
+                                    DOCUMENT LIBRARY
+                                </span>
+
+                                <h2>Biblioteca ta</h2>
+                            </div>
+
+                            <span class="coming-soon">
+                                Coming soon
+                            </span>
+                        </div>
+
+                        <div class="empty-library">
+                            <div class="empty-library-icon">
+                                <span>▤</span>
+                                <span class="empty-plus">+</span>
+                            </div>
+
+                            <h3>Un spațiu pentru ideile tale</h3>
+
+                            <p>
+                                Aici vei putea încărca,
+                                organiza și analiza
+                                articolele științifice.
+                            </p>
+
+                            <span class="feature-pending">
+                                Încărcarea PDF-urilor
+                                va fi implementată
+                                în etapa următoare.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="workspace-side">
+                        <div class="workspace-card">
+                            <span class="mini-label">
+                                YOUR ACCOUNT
+                            </span>
+
+                            <h2>Profil</h2>
+
+                            <div class="profile-avatar">
+                                @{
+                                    string initial =
+                                        (authState.User.Identity?.Name
+                                        ?? "D")
+                                        .Substring(0, 1)
+                                        .ToUpperInvariant();
+                                }
+
+                                @initial
+                            </div>
+
+                            <strong class="profile-name">
+                                @authState.User.Identity?.Name
+                            </strong>
+
+                            <p class="profile-email">
+                                @authState.User.FindFirst(
+                                    System.Security.Claims.ClaimTypes.Email
+                                )?.Value
+                            </p>
+
+                            <div class="profile-status">
+                                <span class="status-dot"></span>
+                                Cont activ
+                            </div>
+                        </div>
+
+                        <div class="workspace-card tip-card">
+                            <span class="mini-label">
+                                WHAT'S NEXT
+                            </span>
+
+                            <h3>Research starts here.</h3>
+
+                            <p>
+                                Următoarea funcționalitate:
+                                încărcarea și organizarea
+                                articolelor PDF.
+                            </p>
+
+                            <span class="tip-decoration">✦</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </Authorized>
+</AuthorizeView>

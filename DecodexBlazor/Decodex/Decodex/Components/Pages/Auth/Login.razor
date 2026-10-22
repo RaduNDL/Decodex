@@ -1,0 +1,139 @@
+﻿
+@page "/login"
+@attribute [AllowAnonymous]
+
+<PageTitle>Autentificare — Decodex</PageTitle>
+
+<section class="auth-screen">
+    <div class="auth-glow auth-glow-one"></div>
+    <div class="auth-glow auth-glow-two"></div>
+
+    <div class="auth-layout">
+
+        <div class="auth-story">
+            <span class="eyebrow">
+                <span class="status-dot"></span>
+                YOUR RESEARCH SPACE
+            </span>
+
+            <h1>
+                Bine ai revenit
+                <span class="gradient-text">
+                    în Decodex.
+                </span>
+            </h1>
+
+            <p>
+                Continuă să explorezi, să descoperi
+                și să înțelegi cercetarea științifică
+                la un alt nivel.
+            </p>
+
+            <div class="quote-card">
+                <div class="quote-mark">“</div>
+                <p>
+                    Knowledge becomes powerful
+                    when it becomes understandable.
+                </p>
+                <span>THE DECODEX PHILOSOPHY</span>
+            </div>
+        </div>
+
+        <div class="auth-card">
+            <div class="auth-card-top">
+                <div class="auth-logo">D</div>
+                <span class="auth-card-tag">WELCOME BACK</span>
+            </div>
+
+            <h2>Autentificare</h2>
+
+            <p class="auth-subtitle">
+                Accesează spațiul tău personal
+                de cercetare.
+            </p>
+
+            @if (ErrorMessage is not null)
+            {
+                <div class="form-alert" role="alert">
+                    <span>!</span>
+                    @ErrorMessage
+                </div>
+            }
+
+            <form method="post"
+                  action="/auth/login"
+                  class="auth-form">
+
+                <AntiforgeryToken />
+
+                <div class="form-field">
+                    <label for="loginEmail">
+                        Adresă de email
+                    </label>
+
+                    <input id="loginEmail"
+                           name="Email"
+                           type="email"
+                           placeholder="nume@exemplu.com"
+                           autocomplete="username"
+                           maxlength="256"
+                           required />
+                </div>
+
+                <div class="form-field">
+                    <label for="loginPassword">
+                        Parolă
+                    </label>
+
+                    <input id="loginPassword"
+                           name="Password"
+                           type="password"
+                           placeholder="Parola contului tău"
+                           autocomplete="current-password"
+                           required />
+                </div>
+
+                <label class="remember-row">
+                    <input type="checkbox"
+                           name="RememberMe"
+                           value="true" />
+
+                    <span>Ține-mă minte</span>
+                </label>
+
+                <button type="submit"
+                        class="btn btn-primary btn-full auth-submit">
+                    Intră în cont
+                    <span aria-hidden="true">→</span>
+                </button>
+            </form>
+
+            <div class="auth-divider">
+                <span>Nu ai încă un cont?</span>
+            </div>
+
+            <a href="/register"
+               class="btn btn-outline btn-full">
+                Creează cont gratuit
+            </a>
+
+            <p class="auth-footnote">
+                Un spațiu dedicat explorării
+                și înțelegerii cunoașterii.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+@code {
+    [SupplyParameterFromQuery(Name = "error")]
+    public string? Error { get; set; }
+
+    private string? ErrorMessage => Error switch
+    {
+        "invalid" => "Email sau parolă incorectă.",
+        null => null,
+        _ => "Autentificarea nu a putut fi finalizată."
+    };
+}

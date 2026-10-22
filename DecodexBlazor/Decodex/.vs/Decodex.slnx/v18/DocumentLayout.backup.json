@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Decodex\\DecodexBlazor\\Decodex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Migrations\\20261015135518_InitialAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Decodex\\Migrations\\20261015135518_InitialAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\pages\\auth\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\pages\\auth\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\models\\auth\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\models\\auth\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\models\\documents\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\models\\documents\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\models\\auth\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\models\\auth\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|d:\\decodex\\decodexblazor\\decodex\\decodex\\models\\documents\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04157133-D49F-4ECD-8CC8-13C108EC955F}|Decodex\\Decodex.csproj|solutionrelative:decodex\\models\\documents\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20261015135518_InitialAuth.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Migrations\\20261015135518_InitialAuth.cs",
+              "RelativeDocumentMoniker": "Decodex\\Migrations\\20261015135518_InitialAuth.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Migrations\\20261015135518_InitialAuth.cs",
+              "RelativeToolTip": "Decodex\\Migrations\\20261015135518_InitialAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:55:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "Decodex\\wwwroot\\app.css",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\wwwroot\\app.css",
+              "RelativeToolTip": "Decodex\\wwwroot\\app.css",
+              "ViewState": "AgIAAO4HAAAAAAAAAAAowPwHAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-15T13:51:42.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Decodex\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Services\\AuthService.cs",
+              "RelativeToolTip": "Decodex\\Services\\AuthService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:26:46.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Program.cs",
+              "RelativeDocumentMoniker": "Decodex\\Program.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Program.cs",
+              "RelativeToolTip": "Decodex\\Program.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAqwOYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:31:19.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\_Imports.razor",
+              "RelativeToolTip": "Decodex\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:31:56.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\App.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\App.razor",
+              "RelativeToolTip": "Decodex\\Components\\App.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:33:37.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\Routes.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Routes.razor",
+              "RelativeToolTip": "Decodex\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:35:50.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Decodex\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:17:46.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Auth\\Register.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\Pages\\Auth\\Register.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Auth\\Register.razor",
+              "RelativeToolTip": "Decodex\\Components\\Pages\\Auth\\Register.razor",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAowK0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:28:18.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Auth\\Login.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\Pages\\Auth\\Login.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Auth\\Login.razor",
+              "RelativeToolTip": "Decodex\\Components\\Pages\\Auth\\Login.razor",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowIQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:28:13.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Decodex\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:44:40.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "Decodex\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "Decodex\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAowKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-15T13:44:44.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Decodex\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "Decodex\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:27:24.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Decodex\\DTOs\\Auth\\RegisterRequest.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "Decodex\\DTOs\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:27:19.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Decodex\\Services\\PasswordService.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Services\\PasswordService.cs",
+              "RelativeToolTip": "Decodex\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAqwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:26:50.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\appsettings.json",
+              "RelativeDocumentMoniker": "Decodex\\appsettings.json",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\appsettings.json",
+              "RelativeToolTip": "Decodex\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-15T13:45:40.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Decodex\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Decodex\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:22:56.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Auth\\AppUser.cs",
+              "RelativeDocumentMoniker": "Decodex\\Models\\Auth\\AppUser.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Auth\\AppUser.cs",
+              "RelativeToolTip": "Decodex\\Models\\Auth\\AppUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:23:03.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Auth\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Decodex\\Models\\Auth\\RefreshToken.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Auth\\RefreshToken.cs",
+              "RelativeToolTip": "Decodex\\Models\\Auth\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:25:49.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Folder.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Documents\\Folder.cs",
+              "RelativeDocumentMoniker": "Decodex\\Models\\Documents\\Folder.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Documents\\Folder.cs",
+              "RelativeToolTip": "Decodex\\Models\\Documents\\Folder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:23:10.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Document.cs",
+              "DocumentMoniker": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Documents\\Document.cs",
+              "RelativeDocumentMoniker": "Decodex\\Models\\Documents\\Document.cs",
+              "ToolTip": "D:\\Decodex\\DecodexBlazor\\Decodex\\Decodex\\Models\\Documents\\Document.cs",
+              "RelativeToolTip": "Decodex\\Models\\Documents\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T13:23:07.256Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

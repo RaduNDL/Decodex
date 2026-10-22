@@ -1,0 +1,526 @@
+﻿
+@page "/"
+
+<PageTitle>Decodex — Research, decoded.</PageTitle>
+
+<section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow hero-glow-purple"></div>
+    <div class="hero-glow hero-glow-cyan"></div>
+
+    <div class="container hero-content">
+
+        <a href="#features" class="announcement">
+            <span class="announcement-badge">NEW</span>
+            <span>Meet your intelligent research workspace</span>
+            <span class="announcement-arrow">↗</span>
+        </a>
+
+        <div class="hero-eyebrow">
+            <span class="eyebrow-line"></span>
+            AI-POWERED SCIENTIFIC EXPLORATION
+            <span class="eyebrow-line"></span>
+        </div>
+
+        <h1 class="hero-title">
+            Research is complex.
+            <span class="hero-title-gradient">
+                Understanding
+                shouldn't be.
+            </span>
+        </h1>
+
+        <p class="hero-description">
+            Transformă articolele științifice complexe
+            în cunoaștere accesibilă.
+            Citește inteligent, înțelege formule,
+            explorează conexiuni și descoperă idei
+            cu ajutorul inteligenței artificiale.
+        </p>
+
+        <div class="hero-actions">
+            <AuthorizeView>
+                <Authorized>
+                    <a href="/dashboard"
+                       class="btn btn-primary btn-large">
+                        Deschide workspace-ul
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </Authorized>
+
+                <NotAuthorized>
+                    <a href="/register"
+                       class="btn btn-primary btn-large">
+                        Explorează Decodex
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </NotAuthorized>
+            </AuthorizeView>
+
+            <a href="#how-it-works"
+               class="btn btn-outline btn-large">
+                <span class="play-icon">▶</span>
+                Descoperă platforma
+            </a>
+        </div>
+
+        <div class="hero-trust">
+            <div class="trust-avatars">
+                <span>∑</span>
+                <span>AI</span>
+                <span>∞</span>
+            </div>
+
+            <div>
+                <strong>Built for curious minds</strong>
+                <p>Students · Researchers · Innovators</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="showcase-section">
+    <div class="container">
+
+        <div class="showcase-window">
+            <div class="showcase-topbar">
+                <div class="window-dots">
+                    <span></span><span></span><span></span>
+                </div>
+
+                <div class="showcase-address">
+                    decodex / workspace / paper-analysis
+                </div>
+
+                <div class="showcase-live">
+                    <span class="status-dot"></span>
+                    INTERFACE PREVIEW
+                </div>
+            </div>
+
+            <div class="showcase-content">
+
+                <aside class="preview-sidebar">
+                    <div class="preview-sidebar-title">
+                        <span class="preview-symbol">D</span>
+                        WORKSPACE
+                    </div>
+
+                    <div class="preview-nav-item active">
+                        <span>▦</span> Overview
+                    </div>
+
+                    <div class="preview-nav-item">
+                        <span>▤</span> My Library
+                    </div>
+
+                    <div class="preview-nav-item">
+                        <span>✧</span> AI Assistant
+                    </div>
+
+                    <div class="preview-nav-item">
+                        <span>∑</span> Mathematics
+                    </div>
+
+                    <div class="preview-sidebar-divider"></div>
+
+                    <div class="preview-sidebar-label">
+                        RECENT DOCUMENTS
+                    </div>
+
+                    <div class="preview-document">
+                        <span>▣</span>
+                        Neural Optimization.pdf
+                    </div>
+
+                    <div class="preview-document">
+                        <span>▣</span>
+                        Transformer Models.pdf
+                    </div>
+                </aside>
+
+                <div class="preview-paper">
+                    <div class="preview-paper-header">
+                        <span class="mini-label">
+                            RESEARCH DOCUMENT
+                        </span>
+
+                        <span class="preview-page">
+                            PAGE 04 / 18
+                        </span>
+                    </div>
+
+                    <h3>
+                        Understanding Gradient-Based
+                        Optimization
+                    </h3>
+
+                    <p class="preview-authors">
+                        Advanced Machine Learning · Research Preview
+                    </p>
+
+                    <div class="paper-rule"></div>
+
+                    <div class="paper-paragraph">
+                        Gradient-based optimization algorithms
+                        iteratively update model parameters
+                        to minimize an objective function.
+                        The learning rate controls the size
+                        of each parameter update.
+                    </div>
+
+                    <div class="formula-selection">
+                        <div class="selection-indicator">
+                            SELECTED EQUATION
+                        </div>
+
+                        <div class="formula-display">
+                            θ<sub>t+1</sub> =
+                            θ<sub>t</sub> −
+                            η ∇L(θ<sub>t</sub>)
+                        </div>
+                    </div>
+
+                    <div class="paper-paragraph faded">
+                        Convergence depends on the
+                        optimization landscape and
+                        the selected learning rate.
+                    </div>
+
+                    <div class="preview-highlight">
+                        <span>✦</span>
+                        Explain selected equation
+                        <span>→</span>
+                    </div>
+                </div>
+
+                <div class="preview-ai">
+                    <div class="preview-ai-header">
+                        <div class="ai-avatar">✦</div>
+
+                        <div>
+                            <strong>Decodex AI</strong>
+                            <span>Contextual explanation</span>
+                        </div>
+                    </div>
+
+                    <div class="ai-level-label">
+                        EXPLANATION MODE
+                    </div>
+
+                    <div class="ai-level-tabs">
+                        <span>Intuitive</span>
+                        <span class="selected">Academic</span>
+                        <span>Advanced</span>
+                    </div>
+
+                    <div class="ai-response">
+                        <div class="ai-response-heading">
+                            ✦ Understanding the equation
+                        </div>
+
+                        <p>
+                            This is the update rule for
+                            <strong>gradient descent</strong>.
+                        </p>
+
+                        <div class="ai-variable">
+                            <span>θ</span>
+                            <div>
+                                <strong>Model parameters</strong>
+                                <small>Values being optimized</small>
+                            </div>
+                        </div>
+
+                        <div class="ai-variable">
+                            <span>η</span>
+                            <div>
+                                <strong>Learning rate</strong>
+                                <small>Controls step size</small>
+                            </div>
+                        </div>
+
+                        <div class="ai-variable">
+                            <span>∇</span>
+                            <div>
+                                <strong>Gradient</strong>
+                                <small>Direction of steepest ascent</small>
+                            </div>
+                        </div>
+
+                        <div class="ai-insight">
+                            <span>✦ KEY INSIGHT</span>
+                            <p>
+                                We move opposite to the gradient
+                                to reduce the loss.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="showcase-caption">
+            <span class="caption-line"></span>
+            A GLIMPSE INTO THE FUTURE OF RESEARCH
+            <span class="caption-line"></span>
+        </div>
+
+    </div>
+</section>
+
+<section id="features" class="features-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-kicker">
+                THE INTELLIGENCE LAYER
+            </span>
+
+            <h2>
+                Everything you need to
+                <span class="gradient-text">
+                    go deeper.
+                </span>
+            </h2>
+
+            <p>
+                Instrumente proiectate pentru
+                a transforma citirea pasivă
+                într-o experiență activă de învățare.
+            </p>
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature-card feature-primary">
+                <div class="feature-icon purple">✦</div>
+                <div class="feature-tag">AI-POWERED</div>
+
+                <h3>Contextual AI Explanations</h3>
+
+                <p>
+                    Explicații adaptate nivelului tău
+                    de cunoștințe, fundamentate în
+                    contextul articolului.
+                </p>
+
+                <div class="feature-visual levels-visual">
+                    <span>Intuitive</span>
+                    <span class="active">Academic</span>
+                    <span>Advanced</span>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon cyan">∑</div>
+
+                <h3>Mathematical Intelligence</h3>
+
+                <p>
+                    Înțelege formulele, simbolurile,
+                    variabilele și relațiile matematice,
+                    pas cu pas.
+                </p>
+
+                <div class="math-feature-visual">
+                    f(x) = x<sup>2</sup> + 2x + 1
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon orange">▤</div>
+
+                <h3>Smart PDF Reader</h3>
+
+                <p>
+                    Analizează articole PDF, selectează
+                    pasaje și conectează explicațiile
+                    cu sursa originală.
+                </p>
+
+                <div class="feature-document">
+                    <div></div>
+                    <div></div>
+                    <div class="highlight-line"></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon pink">◇</div>
+
+                <h3>Research Knowledge Graph</h3>
+
+                <p>
+                    Descoperă conexiuni între concepte,
+                    idei și documente din biblioteca ta.
+                </p>
+
+                <div class="graph-visual">
+                    <span class="graph-node node-a"></span>
+                    <span class="graph-node node-b"></span>
+                    <span class="graph-node node-c"></span>
+                    <span class="graph-node node-d"></span>
+                    <span class="graph-line line-a"></span>
+                    <span class="graph-line line-b"></span>
+                    <span class="graph-line line-c"></span>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon blue">◎</div>
+
+                <h3>Research Q&A</h3>
+
+                <p>
+                    Adresează întrebări despre un articol
+                    și primește răspunsuri însoțite
+                    de referințe la paginile relevante.
+                </p>
+
+                <div class="feature-chat">
+                    <div>What does this result mean?</div>
+                    <div>✦ Let's break it down...</div>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon green">↗</div>
+
+                <h3>Interactive Exploration</h3>
+
+                <p>
+                    Explorează ecuații, parametri,
+                    grafice și exemple de cod
+                    pentru a înțelege modelele.
+                </p>
+
+                <div class="sliders-visual">
+                    <div>
+                        <span>Learning rate</span>
+                        <i style="--fill:65%"></i>
+                    </div>
+
+                    <div>
+                        <span>Iterations</span>
+                        <i style="--fill:42%"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="section-disclaimer">
+            Aceste module reprezintă funcționalitățile
+            planificate pentru Decodex. În versiunea
+            implementată acum sunt active autentificarea
+            și spațiul personal.
+        </p>
+
+    </div>
+</section>
+
+<section id="how-it-works" class="steps-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-kicker">
+                A BETTER RESEARCH WORKFLOW
+            </span>
+
+            <h2>
+                Three steps.
+                <span class="gradient-text">
+                    Infinite curiosity.
+                </span>
+            </h2>
+
+            <p>
+                Un flux de lucru simplu,
+                gândit pentru explorare aprofundată.
+            </p>
+        </div>
+
+        <div class="steps-grid">
+            <div class="step-card">
+                <span class="step-number">01</span>
+                <div class="step-icon">↑</div>
+                <h3>Upload</h3>
+                <p>
+                    Adaugă articole științifice
+                    în biblioteca personală.
+                </p>
+            </div>
+
+            <div class="step-card">
+                <span class="step-number">02</span>
+                <div class="step-icon">✦</div>
+                <h3>Decode</h3>
+                <p>
+                    Explorează explicații,
+                    formule și context academic.
+                </p>
+            </div>
+
+            <div class="step-card">
+                <span class="step-number">03</span>
+                <div class="step-icon">↗</div>
+                <h3>Discover</h3>
+                <p>
+                    Conectează informațiile
+                    și aprofundează înțelegerea.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="cta-section">
+    <div class="container">
+        <div class="cta-panel">
+            <div class="cta-orbit orbit-one"></div>
+            <div class="cta-orbit orbit-two"></div>
+
+            <div class="cta-inner">
+                <span class="section-kicker">
+                    START EXPLORING
+                </span>
+
+                <h2>
+                    The next breakthrough
+                    starts with
+                    <span class="gradient-text">
+                        understanding.
+                    </span>
+                </h2>
+
+                <p>
+                    Un nou mod de a interacționa
+                    cu literatura științifică.
+                </p>
+
+                <AuthorizeView>
+                    <Authorized>
+                        <a href="/dashboard"
+                           class="btn btn-primary btn-large">
+                            Deschide Decodex
+                            <span>↗</span>
+                        </a>
+                    </Authorized>
+
+                    <NotAuthorized>
+                        <a href="/register"
+                           class="btn btn-primary btn-large">
+                            Creează cont gratuit
+                            <span>↗</span>
+                        </a>
+                    </NotAuthorized>
+                </AuthorizeView>
+            </div>
+        </div>
+    </div>
+</section>

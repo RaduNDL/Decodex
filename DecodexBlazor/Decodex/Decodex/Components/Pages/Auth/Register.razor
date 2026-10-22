@@ -1,0 +1,181 @@
+﻿
+@page "/register"
+@attribute [AllowAnonymous]
+
+<PageTitle>Înregistrare — Decodex</PageTitle>
+
+<section class="auth-screen">
+    <div class="auth-glow auth-glow-one"></div>
+    <div class="auth-glow auth-glow-two"></div>
+
+    <div class="auth-layout">
+
+        <div class="auth-story">
+            <span class="eyebrow">
+                <span class="status-dot"></span>
+                WELCOME TO DEC ODEX
+            </span>
+
+            <h1>
+                Cercetarea devine
+                <span class="gradient-text">
+                    mai inteligibilă.
+                </span>
+            </h1>
+
+            <p>
+                De la articole academice complexe
+                la explicații clare, formule înțelese
+                și idei conectate.
+            </p>
+
+            <div class="story-features">
+                <div class="story-feature">
+                    <span class="story-feature-icon">✦</span>
+                    <span>Explicații AI contextuale</span>
+                </div>
+
+                <div class="story-feature">
+                    <span class="story-feature-icon">∑</span>
+                    <span>Analiză matematică</span>
+                </div>
+
+                <div class="story-feature">
+                    <span class="story-feature-icon">◇</span>
+                    <span>Bibliotecă de cercetare</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="auth-card">
+            <div class="auth-card-top">
+                <div class="auth-logo">D</div>
+                <span class="auth-card-tag">GET STARTED</span>
+            </div>
+
+            <h2>Creează-ți contul</h2>
+
+            <p class="auth-subtitle">
+                Primul pas către o nouă experiență
+                de explorare științifică.
+            </p>
+
+            @if (ErrorMessage is not null)
+            {
+                <div class="form-alert" role="alert">
+                    <span>!</span>
+                    @ErrorMessage
+                </div>
+            }
+
+            <form method="post"
+                  action="/auth/register"
+                  class="auth-form">
+
+                <AntiforgeryToken />
+
+                <div class="form-field">
+                    <label for="fullName">
+                        Nume complet
+                    </label>
+
+                    <input id="fullName"
+                           type="text"
+                           name="FullName"
+                           placeholder="Ex: Alex Popescu"
+                           autocomplete="name"
+                           minlength="2"
+                           maxlength="80"
+                           required />
+                </div>
+
+                <div class="form-field">
+                    <label for="registerEmail">
+                        Adresă de email
+                    </label>
+
+                    <input id="registerEmail"
+                           type="email"
+                           name="Email"
+                           placeholder="nume@exemplu.com"
+                           autocomplete="email"
+                           maxlength="256"
+                           required />
+                </div>
+
+                <div class="form-field">
+                    <label for="registerPassword">
+                        Parolă
+                    </label>
+
+                    <input id="registerPassword"
+                           type="password"
+                           name="Password"
+                           placeholder="Minimum 12 caractere"
+                           autocomplete="new-password"
+                           minlength="12"
+                           maxlength="128"
+                           required />
+
+                    <span class="field-hint">
+                        Folosește o parolă unică,
+                        de cel puțin 12 caractere.
+                    </span>
+                </div>
+
+                <div class="form-field">
+                    <label for="confirmPassword">
+                        Confirmă parola
+                    </label>
+
+                    <input id="confirmPassword"
+                           type="password"
+                           name="ConfirmPassword"
+                           placeholder="Reintrodu parola"
+                           autocomplete="new-password"
+                           minlength="12"
+                           maxlength="128"
+                           required />
+                </div>
+
+                <button type="submit"
+                        class="btn btn-primary btn-full auth-submit">
+                    Creează cont
+                    <span aria-hidden="true">→</span>
+                </button>
+            </form>
+
+            <div class="auth-divider">
+                <span>Ai deja un cont?</span>
+            </div>
+
+            <a href="/login"
+               class="btn btn-outline btn-full">
+                Autentifică-te
+            </a>
+
+            <p class="auth-footnote">
+                Contul tău îți va păstra biblioteca
+                și progresul de cercetare.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+@code {
+    [SupplyParameterFromQuery(Name = "error")]
+    public string? Error { get; set; }
+
+    private string? ErrorMessage => Error switch
+    {
+        "name" => "Numele trebuie să aibă între 2 și 80 de caractere.",
+        "email" => "Introdu o adresă de email validă.",
+        "password" => "Parola trebuie să aibă între 12 și 128 de caractere.",
+        "confirm" => "Parolele introduse nu coincid.",
+        "exists" => "Există deja un cont cu această adresă de email.",
+        "invalid" => "Verifică datele introduse.",
+        null => null,
+        _ => "Înregistrarea nu a putut fi finalizată."
+    };
+}

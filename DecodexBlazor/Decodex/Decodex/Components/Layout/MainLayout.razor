@@ -1,0 +1,79 @@
+﻿@inherits LayoutComponentBase
+
+<div class="site-shell">
+
+    <header class="site-header">
+        <div class="header-inner">
+
+            <a href="/" class="brand">
+                <span class="brand-mark">
+                    <span class="brand-mark-inner">D</span>
+                </span>
+                <span>decode<span class="brand-x">x</span></span>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Navigație principală">
+                <a href="/#features">Funcționalități</a>
+                <a href="/#how-it-works">Cum funcționează</a>
+                <a href="/#about">Despre proiect</a>
+            </nav>
+
+            <div class="header-actions">
+                <AuthorizeView>
+                    <Authorized>
+                        <a href="/dashboard"
+                           class="btn btn-ghost nav-login">
+                            Dashboard
+                        </a>
+
+                        <form method="post"
+                              action="/auth/logout"
+                              class="logout-form">
+                            <AntiforgeryToken />
+
+                            <button type="submit"
+                                    class="btn btn-outline">
+                                Deconectare
+                            </button>
+                        </form>
+                    </Authorized>
+
+                    <NotAuthorized>
+                        <a href="/login"
+                           class="btn btn-ghost nav-login">
+                            Autentificare
+                        </a>
+
+                        <a href="/register"
+                           class="btn btn-primary btn-small">
+                            Începe gratuit
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </NotAuthorized>
+                </AuthorizeView>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main-content">
+        @Body
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">D</span>
+                <strong>decodex</strong>
+                <span class="footer-separator">/</span>
+                <span>Research, decoded.</span>
+            </div>
+
+            <span class="footer-copy">
+                © @DateTime.Now.Year Decodex.
+                Creat pentru cercetare și învățare.
+            </span>
+        </div>
+    </footer>
+
+</div>
